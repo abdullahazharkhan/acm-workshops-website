@@ -2,7 +2,7 @@
 
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@heroui/react";
 import { SquareArrowOutUpRight } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const AcmeLogo = () => {
     return (
@@ -19,15 +19,30 @@ export default function App() {
 
     const [isScrolled, setIsScrolled] = useState(false);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <Navbar className="bg-white/50 backdrop-blur-lg py-2">
+        <Navbar
+            className={`fixed top-0 w-full transition-colors duration-500 ${isScrolled ? "bg-white/50 backdrop-blur-lg" : "bg-transparent"
+                } py-2`}
+        >
             <NavbarBrand>
                 <AcmeLogo />
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-6" justify="center">
                 {links.map((link) => (
                     <NavbarItem key={link.name}>
-                        <Link href={link.href} className={`text-lg font-[500] text-primaryblue duration-400 hover:text-primaryblue`}>
+                        <Link
+                            href={link.href}
+                            className="text-lg font-[500] text-primaryblue hover:text-primaryblue transition-colors duration-300"
+                        >
                             {link.name}
                         </Link>
                     </NavbarItem>
@@ -35,7 +50,13 @@ export default function App() {
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem>
-                    <Button as={Link} href="#" variant="solid" target="_blank" className="text-lg font-[500] bg-primaryred text-white">
+                    <Button
+                        as={Link}
+                        href="#"
+                        variant="solid"
+                        target="_blank"
+                        className="text-lg font-[500] bg-primaryred text-white"
+                    >
                         ACM NUCES
                         <SquareArrowOutUpRight size={20} />
                     </Button>
