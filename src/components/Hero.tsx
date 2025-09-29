@@ -14,9 +14,9 @@ const Hero = () => {
             <div className="space-y-4">
                 <div>
                     <h1 className='text-xl sm:text-3xl text-primaryblue'>ACM NUCES Presents</h1>
-                    <h1 className='text-5xl sm:text-5xl md:text-7xl xl:text-8xl font-[700] text-primaryblue'>Programming Workshops</h1>
+                    <h1 className='text-5xl sm:text-5xl md:text-7xl xl:text-8xl font-[700] text-primaryblue'>SkillPrep Series</h1>
                 </div>
-                <h1 className='text-xl sm:text-2xl text-primaryred sm:text-center'>Code. Compete. Conquer.</h1>
+                <h1 className='text-xl sm:text-2xl text-primaryred sm:text-center'>Your weekly path to coding mastery.</h1>
             </div>
             <div className='flex justify-center items-center gap-4 flex-col sm:flex-row mt-4 w-full sm:w-auto'>
                 <button
