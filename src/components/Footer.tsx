@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='bg-primaryblue/5 p-4 flex justify-between'>
             <p className='text-center text-primaryblue'>© 2025 ACM NUCES.</p>
-            <p className='text-center text-primaryblue'>{"</>"} by <Link href={"https://abdullahazhar.vercel.app"} className='underline'>abbdullah</Link></p>
+            <p className='text-center text-primaryblue'>{"</>"} by <Link href={"https://abdullahazhar.vercel.app"} target='_blank' className='underline'>abbdullah</Link></p>
         </div>
     )
 }
