@@ -37,12 +37,12 @@ const Workshops = () => {
         },
         {
             week: "nd", title: "Basic Maths + Arrays", contestLink: "#", tags: [
-                "MathForCP", "PrimeNumbers", "ArrayBasics", "ArrayBasics", "LogicBuilding",
+                "MathForCP", "PrimeNumbers", "ArrayBasics", "ElementaryMath", "LogicBuilding",
             ]
         },
         {
             week: "rd", title: "Time Complexity and Running Time", contestLink: "#", tags: [
-                "TimeComplexity", "BigO", "RuntimeAnalysis", "OptimizationTricks", "EfficientCode",
+                "TimeComplexity", "BigO", "RuntimeAnalysis", "OptimizationTricks",
             ]
         },
         {
@@ -77,7 +77,7 @@ const Workshops = () => {
                 <h1 className='text-center text-5xl font-bold text-primaryblue underline decoration-primaryred decoration-8'>Workshops Itinerary</h1>
                 <p className='text-center text-primaryblue mt-4 w-full sm:w-2/3 mx-auto'>Join us for a series of engaging workshops designed to elevate your programming skills. Our workshops cover a range of topics to assist you grow and succeed in the tech world.</p>
             </div>
-            <div className='grid md:grid-cols-2 justify-center items-center gap-4'>
+            <div className='grid lg:grid-cols-2 justify-center items-center gap-4'>
                 {workshops.map((workshop, index) => (
                     <WorkshopCard key={index} workshop={workshop} index={index} />
                 ))}

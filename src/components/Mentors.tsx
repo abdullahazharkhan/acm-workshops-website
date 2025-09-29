@@ -32,7 +32,7 @@ const Mentors = () => {
             tags: ["Pakistan Top 3 on Codeforces", "Candidate Master"],
             rating: 1930,
             codeforces: "https://codeforces.com/profile/Ashar-Usmani",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/muhammad-ashar-usmani/",
             image: "/Mentors/Ashar.jpg"
         },
         {
@@ -40,7 +40,7 @@ const Mentors = () => {
             tags: ["ICPC World Finalist", "Expert"],
             rating: 1656,
             codeforces: "https://codeforces.com/profile/abdul_ahad4",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/abdul-ahad-munaf-354909203/",
             image: "/Mentors/AbdulAhad.jpg"
         },
         {
@@ -48,7 +48,7 @@ const Mentors = () => {
             tags: ["Silver Medalist Ignite", "Expert"],
             rating: 1869,
             codeforces: "https://codeforces.com/profile/valiii",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/valihasan-jalees/",
             image: "/Mentors/Valihasan.jpg"
         },
         {
@@ -56,7 +56,7 @@ const Mentors = () => {
             tags: ["Bronze Medalist Ignite", "Expert"],
             rating: 1696,
             codeforces: "https://codeforces.com/profile/Musaddiq",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/musaddiq-kamal/",
             image: "/Mentors/Musaddiq.jpg"
         },
         {
@@ -64,7 +64,7 @@ const Mentors = () => {
             tags: ["Silver Medalist Ignite", "Specialist"],
             rating: 1496,
             codeforces: "https://codeforces.com/profile/munnazzar",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/munnazzar-shahzad/",
             image: "/Mentors/Munnazzar.jpg"
         },
         {
@@ -72,7 +72,7 @@ const Mentors = () => {
             tags: ["Bronze Medalist Ignite", "Specialist"],
             rating: 1439,
             codeforces: "https://codeforces.com/profile/minhaj03",
-            linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
+            linkedin: "https://www.linkedin.com/in/minhaj-mateen-302615285/",
             image: "/Mentors/Minhaj.jpg"
         },
     ];
