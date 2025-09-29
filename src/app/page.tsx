@@ -1,8 +1,7 @@
-import Image from "next/image";
-import { Button } from '@heroui/button';
 import Hero from "@/components/Hero";
 import Workshops from "@/components/Workshops";
 import Leads from "@/components/Leads";
+import Mentors from "@/components/Mentors";
 
 export default function Home() {
   return (
@@ -10,6 +9,7 @@ export default function Home() {
       <Hero />
       <Workshops />
       <Leads />
+      <Mentors />
     </div>
   );
 }

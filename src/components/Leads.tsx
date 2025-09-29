@@ -9,7 +9,7 @@ const LeadsCard = ({ lead, index }: any) => {
         >
             <div className="bg-white px-2 md:px-4 py-1 rounded absolute -bottom-5
                       mx-auto translate-x-1/2 right-1/2 shadow-md
-                      w-[200px] ]md:w-[250px] flex items-center flex-col justify-center">
+                      w-[200px] md:w-[250px] flex items-center flex-col justify-center">
                 <h1 className="text-primaryblue font-bold text-md md:text-xl">{lead.name}</h1>
                 <h1 className="text-primaryred font-light text-sm md:text-base">{lead.role}</h1>
             </div>
@@ -22,17 +22,17 @@ const Leads = () => {
         {
             name: "Ammar Kaboolio",
             role: "Technical Co-Lead",
-            image: "/leads/Taaha.jpg"
+            image: "/Leads/Taaha.jpg"
         },
         {
             name: "Asfandyar Khanzada",
             role: "Technical Lead",
-            image: "/leads/Taaha.jpg"
+            image: "/Leads/Taaha.jpg"
         },
         {
             name: "Muhammad Taaha",
             role: "Technical Co-Lead",
-            image: "/leads/Taaha.jpg"
+            image: "/Leads/Taaha.jpg"
         }
     ];
     return (
