@@ -31,7 +31,7 @@ const Leads = () => {
         },
         {
             name: "Muhammad Taaha",
-            role: "Technical Co-Lead",
+            role: "Competitions Lead",
             image: "/Leads/Taaha.jpg"
         }
     ];
