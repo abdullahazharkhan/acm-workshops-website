@@ -1,9 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='bg-primaryblue/5 p-4'>
+        <div className='bg-primaryblue/5 p-4 flex justify-between'>
             <p className='text-center text-primaryblue'>© 2025 ACM NUCES.</p>
+            <p className='text-center text-primaryblue'>{"</>"} by <Link href={"https://abdullahazhar.vercel.app"} className='underline'>abbdullah</Link></p>
         </div>
     )
 }

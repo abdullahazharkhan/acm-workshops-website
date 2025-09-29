@@ -28,6 +28,13 @@ export default function App() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    const handleSmoothScroll = (id: string) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
     return (
         <Navbar
             className={`fixed top-0 w-full transition-colors duration-500 ${isScrolled ? "bg-white/50 backdrop-blur-lg" : "bg-transparent"
@@ -41,6 +48,7 @@ export default function App() {
                     <NavbarItem key={link.name}>
                         <Link
                             href={link.href}
+                            onClick={() => handleSmoothScroll(link.href)}
                             className="text-lg font-[500] text-primaryblue hover:text-primaryblue transition-colors duration-300"
                         >
                             {link.name}
@@ -52,7 +60,7 @@ export default function App() {
                 <NavbarItem>
                     <Button
                         as={Link}
-                        href="#"
+                        href="https://www.acmnuceskhi.com/"
                         variant="solid"
                         target="_blank"
                         className="text-lg font-[500] bg-primaryred text-white hover:rounded rounded-3xl transition-all duration-500 hover:bg-primaryred"
