@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='h-screen w-full flex justify-center items-center flex-col p-4'>
+        <div className='h-screen w-full flex justify-center items-center flex-col'>
             <div className="space-y-4">
                 <div>
                     <h1 className='text-xl sm:text-3xl text-primaryblue'>ACM NUCES Presents</h1>
