@@ -33,3 +33,25 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* For Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  /* scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #0B466D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0B466D;
+  border-radius: 9999px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0B466D rgba(207, 237, 255, 0.5);
+}

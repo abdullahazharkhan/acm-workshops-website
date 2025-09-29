@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Cascadia_Code, Montserrat } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "../components/Navbar";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,9 +43,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${cascadiaCode.variable} ${montserrat.variable} antialiased min-h-screen bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(207,237,255,.5)_100%)]`}
       >
         <Providers>
-          <main className="font-cascadia p-4">
+          <main className="font-cascadia">
             <Navbar />
             {children}
+            <Footer />
           </main>
         </Providers>
       </body>

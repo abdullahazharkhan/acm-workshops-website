@@ -72,7 +72,7 @@ const Workshops = () => {
         }
     ];
     return (
-        <div className='p-4 grid md:grid-cols-2 justify-center items-center gap-4'>
+        <div className='p-8 grid md:grid-cols-2 justify-center items-center gap-4'>
             {workshops.map((workshop, index) => (
                 <WorkshopCard key={index} workshop={workshop} index={index} />
             ))}
