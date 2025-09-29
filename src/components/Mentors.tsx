@@ -49,7 +49,7 @@ const Mentors = () => {
             rating: 1869,
             codeforces: "https://codeforces.com/profile/valiii",
             linkedin: "https://www.linkedin.com/in/ashar-usmani-9829b5234/",
-            image: "/Mentors/Vali.jpg"
+            image: "/Mentors/Valihasan.jpg"
         },
         {
             name: "Musaddiq Kamal",
