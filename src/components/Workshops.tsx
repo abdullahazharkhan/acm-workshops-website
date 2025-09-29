@@ -31,43 +31,43 @@ const WorkshopCard = ({ workshop, index }: any) => {
 const Workshops = () => {
     const workshops = [
         {
-            week: "st", title: "Introduction to Programming", contestLink: "#", tags: [
-                "Beginner", "Programming", "Basics", "Maths", "Logic",
+            week: "st", title: "Intro to C++ and STL Basics", contestLink: "#", tags: [
+                "C++Basics", "STL", "VectorsVsArrays", "CP", "FastIO",
             ]
         },
         {
-            week: "nd", title: "Data Structures and Algorithms", contestLink: "#", tags: [
-                "Intermediate", "Algorithms", "Data Structures", "Sorting",
+            week: "nd", title: "Basic Maths + Arrays", contestLink: "#", tags: [
+                "MathForCP", "PrimeNumbers", "ArrayBasics", "ArrayBasics", "LogicBuilding",
             ]
         },
         {
-            week: "rd", title: "Advanced Web Development", contestLink: "#", tags: [
-                "Advanced", "Web Development", "React", "Node.js", "APIs",
+            week: "rd", title: "Time Complexity and Running Time", contestLink: "#", tags: [
+                "TimeComplexity", "BigO", "RuntimeAnalysis", "OptimizationTricks", "EfficientCode",
             ]
         },
         {
-            week: "th", title: "Machine Learning Basics", contestLink: "#", tags: [
-                "Beginner", "Machine Learning", "AI", "Data Science",
+            week: "th", title: "Intro to STL Data Structures", contestLink: "#", tags: [
+                "STLStructures", "StackQueue", "PriorityQueue", "DSInCP", "HandsOnSTL",
             ]
         },
         {
-            week: "th", title: "Competitive Programming", contestLink: "#", tags: [
-                "Advanced", "Competitive Programming", "Contests", "Problem Solving",
+            week: "th", title: "Intro to Sets & Maps", contestLink: "#", tags: [
+                "SetsAndMaps", "STLUsage", "Hashing", "ComplexityMyths", "EfficientLookup",
             ]
         },
         {
-            week: "th", title: "Mobile App Development", contestLink: "#", tags: [
-                "Intermediate", "Mobile Development", "Flutter", "React Native", "UI/UX",
+            week: "th", title: "Common Sorting Algorithms", contestLink: "#", tags: [
+                "Sorting", "MergeSort", "QuickSort", "SortingComplexity", "WhyWeSort",
             ]
         },
         {
-            week: "th", title: "Cybersecurity Fundamentals", contestLink: "#", tags: [
-                "Beginner", "Cybersecurity", "Networking", "Ethical Hacking",
+            week: "th", title: "Greedy Problems", contestLink: "#", tags: [
+                "GreedyAlgorithms", "GreedyChoice", "ProblemSolving", "WhenGreedyWorks", "GreedyVsDP"
             ]
         },
         {
-            week: "th", title: "Cloud Computing Essentials", contestLink: "#", tags: [
-                "Beginner", "Cloud Computing", "AWS", "Azure", "DevOps",
+            week: "th", title: "Binary Search", contestLink: "#", tags: [
+                "BinarySearch", "OptimalSearch", "DivideAndConquer", "SearchAlgorithms", "BicycleStory",
             ]
         }
     ];
