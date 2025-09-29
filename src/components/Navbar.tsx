@@ -55,7 +55,7 @@ export default function App() {
                         href="#"
                         variant="solid"
                         target="_blank"
-                        className="text-lg font-[500] bg-primaryred text-white"
+                        className="text-lg font-[500] bg-primaryred text-white hover:rounded rounded-3xl transition-all duration-500 hover:bg-primaryred"
                     >
                         ACM NUCES
                         <SquareArrowOutUpRight size={20} />

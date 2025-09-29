@@ -14,6 +14,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-cascadia: var(--font-cascadia-code);
+  --font-montserrat: var(--font-montserrat);
   --color-primaryblue: #0B466D;
   --color-primaryred: #ED5554;
 }
