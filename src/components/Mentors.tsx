@@ -9,7 +9,7 @@ const MentorsCard = ({ lead, index }: any) => {
         "Candidate Master": "text-[#a000a9]"
     };
     return (
-        <div className='border-4 border-primaryblue/20 rounded-lg p-4 flex min-[437]:flex-row flex-col gap-4 backdrop-blur-2xl hover:border-primaryblue duration-500 items-center'>
+        <div className='border-4 border-primaryblue/20 rounded-lg p-4 flex min-[435]:flex-row flex-col gap-4 backdrop-blur-2xl hover:border-primaryblue duration-500 items-center'>
             <Image src={lead.image} alt={lead.name} width={128} height={128} className='h-32 w-32 object-cover rounded-full' />
             <div className="flex flex-col mt-4">
                 <h2 className='text-xl font-bold text-primaryblue'>{lead.name}</h2>
