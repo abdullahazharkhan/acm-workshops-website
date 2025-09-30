@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react'
+import Link from 'next/link';
 
 const Hero = () => {
     const handleSmoothScroll = (id: string) => {
@@ -22,9 +23,8 @@ const Hero = () => {
                 <button
                     onClick={() => handleSmoothScroll("workshops")}
                     className='w-full sm:w-auto px-6 py-2 border-primaryblue border-2 text-primaryblue rounded cursor-pointer'>Explore Itinerary</button>
-                <button
-                    onClick={() => handleSmoothScroll("workshops")}
-                    className='w-full sm:w-auto px-6 py-2 bg-primaryblue text-white border-primaryblue border-2  rounded cursor-pointer'>Register Now!</button>
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRzuAxELW4c5K2ZWQqlxmROKLNVcZiVZ2RCFLdjrs59e9Lxg/viewform" target="_blank" rel="noopener noreferrer"
+                    className='w-full sm:w-auto px-6 py-2 bg-primaryblue text-white border-primaryblue border-2  rounded cursor-pointer'>Register Now!</Link>
             </div>
         </div>
     )
