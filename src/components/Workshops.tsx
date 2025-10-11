@@ -21,7 +21,7 @@ const WorkshopCard = ({ workshop, index }: any) => {
                         </div>
                     </div>
 
-                    <Link href={workshop.contestLink} className={`text-primaryred text-sm ${workshop.contestLink === "#" ? "cursor-default" : "hover:underline"}`}>{workshop.contestLink === "#" ? "Registrations not open yet" : "Join Contest"}</Link>
+                    <Link href={workshop.contestLink} className={`text-primaryred text-sm ${workshop.contestLink === "#" ? "cursor-default" : "hover:underline"}`}>{workshop.contestLink === "#" ? "Registrations for the contest are not open yet" : "Join Contest"}</Link>
                 </div>
             </div>
         </div>
