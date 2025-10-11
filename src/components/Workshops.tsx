@@ -72,7 +72,7 @@ const Workshops = () => {
         }
     ];
     return (
-        <div className='p-8 space-y-8' id="workshops">
+        <div className='p-8 space-y-8 max-w-7xl mx-auto' id="workshops">
             <div>
                 <h1 className='text-center text-5xl font-bold text-primaryblue underline decoration-primaryred decoration-8'>Workshops Itinerary</h1>
                 <p className='text-center text-primaryblue mt-4 w-full sm:w-2/3 mx-auto'>Join us for a series of engaging workshops designed to elevate your programming skills. Our workshops cover a range of topics to assist you grow and succeed in the tech world.</p>

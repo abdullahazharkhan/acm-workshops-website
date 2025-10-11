@@ -9,7 +9,7 @@ const MentorsCard = ({ lead, index }: any) => {
         "Candidate Master": "text-[#a000a9]"
     };
     return (
-        <div className='border-4 border-primaryblue/20 rounded-lg p-4 flex min-[435]:flex-row flex-col gap-4 backdrop-blur-2xl hover:border-primaryblue duration-500 items-center'>
+        <div className='border-4 border-primaryblue/20 rounded-lg p-4 flex min-[435]:flex-row flex-col gap-4 backdrop-blur-2xl hover:border-primaryblue duration-500 items-center h-full'>
             <Image src={lead.image} alt={lead.name} width={128} height={128} className='h-32 w-32 object-cover rounded-full' />
             <div className="flex flex-col mt-4">
                 <h2 className='text-xl font-bold text-primaryblue'>{lead.name}</h2>
@@ -78,9 +78,9 @@ const Mentors = () => {
     ];
 
     return (
-        <div className='mt-12 space-y-8 p-8' id="mentors">
+        <div className='mt-12 space-y-8 p-8 max-w-7xl mx-auto' id="mentors">
             <h1 className='text-center text-5xl font-bold text-primaryblue underline decoration-primaryred decoration-8'>Mentors</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 justify-center items-center flex-wrap mt-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 justify-center items-stretch flex-wrap mt-12'>
                 {mentors.map((lead, index) => (
                     <MentorsCard key={index} lead={lead} index={index} />
                 ))}

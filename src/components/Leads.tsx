@@ -36,7 +36,7 @@ const Leads = () => {
         }
     ];
     return (
-        <div className='mt-12 space-y-8 p-8' id="leads">
+        <div className='mt-12 space-y-8 p-8 max-w-7xl mx-auto' id="leads">
             <h1 className='text-center text-5xl font-bold text-primaryblue underline decoration-primaryred decoration-8'>Leading the Charge</h1>
             <div className='flex gap-4 justify-center items-center flex-wrap mt-16'>
                 {leads.map((lead, index) => (
